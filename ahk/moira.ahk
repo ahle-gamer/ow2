@@ -37,9 +37,9 @@ FadeForward:
 
 WheelDown::
 FadeBackward:
-    SendInput, {LShift}
-    Sleep, 100
     SendInput, {s down}
+    Sleep, 100
+    SendInput, {LShift}
     Sleep, 800
     SendInput, {s up}
     return
