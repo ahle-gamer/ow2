@@ -31,7 +31,7 @@ FadeForward:
     SendInput, {LShift}
     Sleep, 100
     SendInput, {z down}
-    Sleep, 800
+    Sleep, 900
     SendInput, {z up}
     return
 
@@ -40,7 +40,7 @@ FadeBackward:
     SendInput, {LShift}
     Sleep, 100
     SendInput, {s down}
-    Sleep, 800
+    Sleep, 900
     SendInput, {s up}
     return
 
