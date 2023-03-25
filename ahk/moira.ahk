@@ -45,14 +45,4 @@ FadeBackward:
     return
 
 
-ForceStaffRPSkew2:
-    SendInput, Xbutton1
-    SoundBeep, 1000, 50
-    Sleep, 50 ; delai turning RP
-    SoundBeep, 1000, 50
-    Sleep, 50 ; delai turning RP
-    SendInput, d
-    Sleep, castPointRP+100 ; move your mouse to the destination of skew
-    SendInput, r ; skew
-    return
 
