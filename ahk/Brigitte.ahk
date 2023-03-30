@@ -27,22 +27,12 @@ XButton2::
     return
 
 WheelUp::
-FadeForward:
+ShieldBash:
     SendInput, {LShift}
     Sleep, 100
-    SendInput, {z down}
-    Sleep, 900
-    SendInput, {z up}
+    SendInput, {Click}
     return
 
-WheelDown::
-FadeBackward:
-    SendInput, {LShift}
-    Sleep, 100
-    SendInput, {s down}
-    Sleep, 900
-    SendInput, {s up}
-    return
 
 
 
