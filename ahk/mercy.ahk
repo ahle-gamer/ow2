@@ -35,13 +35,13 @@ Superjump:
 
 WheelDown::
 BackwardGA:
-    Send, {s down}
+    Send {s down}
     Sleep, 100
-    SendInput, {k}
-    Sleep, 100
-    SendInput, {l}
-    Sleep, 1000
-    Send, {s up}
+    ;SendInput, {k}
+    ;Sleep, 100
+    ;SendInput, {l}
+    Sleep, 5000
+    Send {s up}
     return
 
 
