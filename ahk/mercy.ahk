@@ -25,10 +25,11 @@ Superjump:
 WheelDown::
 BackwardGA:
     Send, {s down}
-    ;SendInput, {k}
-    ;Sleep, 100
-    ;SendInput, {l}
-    Sleep, 5000
+    Sleep, 100
+    SendInput, {LShift}
+    Sleep, 100
+    SendInput, {Ctrl}
+    Sleep, 1000
     Send, {s up}
     return
 
