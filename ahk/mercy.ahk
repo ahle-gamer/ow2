@@ -34,11 +34,13 @@ Superjump:
     return
 
 WheelDown::
-FadeBackward:
+BackwardGA:
+    SendInput, {s down}
+    Sleep, 100
     SendInput, {LShift}
     Sleep, 100
-    SendInput, {s down}
-    Sleep, 900
+    SendInput, {space}
+    Sleep, 1000
     SendInput, {s up}
     return
 
