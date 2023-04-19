@@ -28,11 +28,11 @@ XButton2::
 
 WheelUp::
 Superjump:
-    SendInput, {LShift}
+    SendInput, {ShiftDown}
     Sleep, 100
-    SendInput, {z down}
+    SendInput, {Ctrl}
     Sleep, 900
-    SendInput, {z up}
+    SendInput, {ShiftUp}
     return
 
 WheelDown::
