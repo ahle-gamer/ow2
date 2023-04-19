@@ -27,7 +27,7 @@ XButton2::
     return
 
 WheelUp::
-FadeForward:
+Superjump:
     SendInput, {LShift}
     Sleep, 100
     SendInput, {z down}
