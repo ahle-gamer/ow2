@@ -35,13 +35,13 @@ Superjump:
 
 WheelDown::
 BackwardGA:
-    SendInput, {s down}
+    Send, {s down}
     Sleep, 100
     SendInput, {LShift}
     Sleep, 100
     SendInput, {space}
     Sleep, 1000
-    SendInput, {s up}
+    Send, {s up}
     return
 
 
