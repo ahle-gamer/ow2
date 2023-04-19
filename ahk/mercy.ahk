@@ -14,17 +14,6 @@ castPointOrb := 300
 !p::Suspend
 
 
-XButton1::
-    SendInput, e
-    Sleep, 150
-    SendInput, {Click Right}
-    return
-
-XButton2::
-    SendInput, e
-    Sleep, 150
-    SendInput, {Click}
-    return
 
 WheelUp::
 Superjump:
@@ -35,13 +24,12 @@ Superjump:
 
 WheelDown::
 BackwardGA:
-    Send {s down}
-    Sleep, 100
+    Send, {s down}
     ;SendInput, {k}
     ;Sleep, 100
     ;SendInput, {l}
     Sleep, 5000
-    Send {s up}
+    Send, {s up}
     return
 
 
