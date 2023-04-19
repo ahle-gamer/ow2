@@ -37,9 +37,9 @@ WheelDown::
 BackwardGA:
     Send, {s down}
     Sleep, 100
-    SendInput, {LShift}
+    SendInput, {k}
     Sleep, 100
-    SendInput, {space}
+    SendInput, {l}
     Sleep, 1000
     Send, {s up}
     return
