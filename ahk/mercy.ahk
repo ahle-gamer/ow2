@@ -27,7 +27,7 @@ BackwardGA:
     Send, {s down}
     Sleep, 100
     SendInput, {LShift}
-    Sleep, 100
+    Sleep, 1000
     SendInput, {Ctrl}
     Sleep, 1000
     Send, {s up}
