@@ -18,7 +18,7 @@ castPointOrb := 300
 WheelUp::
 Superjump:
     SendInput, {LShift}
-    Sleep, 100
+    Sleep, 1000
     SendInput, {Ctrl}
     return
 
