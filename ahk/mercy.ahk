@@ -15,7 +15,7 @@ castPointOrb := 300
 
 
 
-WheelUp::
+
 Superjump:
     SendInput, {LShift}
     Sleep, 1000
@@ -33,7 +33,7 @@ BackwardGA:
     Send, {s up}
     return
 
-WheelDown::
+WheelUp::
 RessurectJump:
     Send, q
     Sleep, 100
@@ -41,7 +41,7 @@ RessurectJump:
     Sleep, 1000
     SendInput, {Ctrl}
     Sleep, 100
-    Send, {s up}
+    Send, {e}
     return
 
 
