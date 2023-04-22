@@ -34,13 +34,13 @@ BackwardGA:
     return
 
 WheelDown::
-BackwardGA:
-    Send, {s down}
+RessurectJump:
+    Send, q
     Sleep, 100
     SendInput, {LShift}
     Sleep, 1000
     SendInput, {Ctrl}
-    Sleep, 1000
+    Sleep, 100
     Send, {s up}
     return
 
