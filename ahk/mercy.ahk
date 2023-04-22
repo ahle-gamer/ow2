@@ -33,5 +33,15 @@ BackwardGA:
     Send, {s up}
     return
 
+WheelDown::
+BackwardGA:
+    Send, {s down}
+    Sleep, 100
+    SendInput, {LShift}
+    Sleep, 1000
+    SendInput, {Ctrl}
+    Sleep, 1000
+    Send, {s up}
+    return
 
 
