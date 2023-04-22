@@ -39,9 +39,9 @@ RessurectJump:
     Sleep, 100
     SendInput, {LShift}
     Sleep, 1000
-    SendInput, {Ctrl}
-    Sleep, 100
-    Send, {e}
+    SendInput, {e}
+    Sleep, 200
+    Send, {Ctrl}
     return
 
 
