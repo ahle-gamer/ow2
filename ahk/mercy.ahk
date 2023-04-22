@@ -35,8 +35,6 @@ BackwardGA:
 
 WheelUp::
 RessurectJump:
-    Send, a
-    Sleep, 1000
     SendInput, {LShift}
     Sleep, 1000
     SendInput, {Ctrl}
