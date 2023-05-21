@@ -11,6 +11,8 @@
 ;Alt P suspend script for chat
 !p::Suspend
 
+delai := 10
+
 RButton::
     ; PixelSearch, FoundX, FoundY, 920, 500, 1000, 580, 0xFF0000, 150
     ; PixelSearch, FoundX, FoundY, 0, 0, A_ScreenWidth, A_ScreenHeight, 0xF12B4E, 50, Fast RGB    
@@ -26,8 +28,10 @@ RButton::
             ; WriteLog("Scan: 0")
         }
         else {
-            Send {Click}
             WriteLog(FoundX "," FoundY)
+            Sleep, delai
+            Send {Click}
+            WriteLog("Click")
             Sleep, 2000
             ; Break
         }
@@ -37,7 +41,24 @@ RButton::
 
     Return
 
+NumpadAdd::
+    if(delai<40){
+        delai+=10
+        WriteLog("Scan: " delai)
+    }
+    Return
+
+NumpadSub::
+    if(delai>=10){
+        delai-=10
+        WriteLog("Scan: " delai)
+    }
+    Return
+
+
 WriteLog(text) {
     FormatTime, CurrentDateTime,, dd-MMM-yyyy HH:mm:ss
     FileAppend, % CurrentDateTime " " A_MSec  ": " text "`n", logfile.txt ; can provide a full path to write to another directory
+    if errorlevel != 0
+        MsgBox, Could not write to filename
 }
