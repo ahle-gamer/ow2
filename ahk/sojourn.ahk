@@ -14,43 +14,10 @@ castPointOrb := 300
 !p::Suspend
 
 
-+q::
-    SendInput, {q down}
-    SendInput, e
-    SendInput, {q up}
-    return
-
-+d::
-    SendInput, {d down}
-    SendInput, e
-    SendInput, {d up}
-    return
-
-+z::
-    SendInput, e
-    return
-
-+s::
+WheelDown::
     SendInput, {s down}
-    SendInput, e
+    SendInput, {LShift}
     SendInput, {s up}
     return
 
-Shift::
-    if(GetKeyState("s", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("z", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("q", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("d", "P")){
-        SendInput, e
-        return
-    }
-    return
+
