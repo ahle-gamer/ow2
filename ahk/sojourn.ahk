@@ -15,9 +15,11 @@ castPointOrb := 300
 
 
 WheelDown::
-    SendInput, {s down}
+    Send {s down}
+    Sleep, 50
     SendInput, {LShift}
-    SendInput, {s up}
+    Sleep, 100
+    Send {s up}
     return
 
 
