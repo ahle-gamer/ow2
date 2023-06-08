@@ -41,7 +41,7 @@ WheelDown::
 	sleep 100
 	loop 8
 	{
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -342, "UInt", 0)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -345, "UInt", 0)
 		sleep 1
 	}
 	sleep 200
