@@ -15,7 +15,7 @@ castPointOrb := 300
 
 WheelDown::
 	Send, {Click}
-    Sleep, 100
+    Sleep, 400
 	Send, {WheelDown}
     return
 
