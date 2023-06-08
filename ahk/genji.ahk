@@ -36,21 +36,12 @@ castPointOrb := 300
     SendInput, {s up}
     return
 
-Shift::
-    if(GetKeyState("s", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("z", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("q", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("d", "P")){
-        SendInput, e
-        return
-    }
-    return
+F3::spin( 20, 10, 1000)
+F4::spin(-30,  3, 2000)
+F5::spin(-60,  2, 1000)
+
+spin(amount, speed, durationMS) {
+    end := A_TickCount + durationMS
+    While A_TickCount < end
+    MouseMove, amount, 0, speed, R ; 0 = fastest, 100 = slowest
+}
