@@ -43,5 +43,5 @@ F5::spin(-60,  2, 1000)
 spin(amount, speed, durationMS) {
     end := A_TickCount + durationMS
     While A_TickCount < end
-    MouseMove, amount, 0, speed, R ; 0 = fastest, 100 = slowest
+        MouseMove, amount, 0, speed, R ; 0 = fastest, 100 = slowest
 }
