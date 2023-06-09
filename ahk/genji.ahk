@@ -21,6 +21,13 @@ castPointOrb := 300
     }
     return
 
+~RButton::
+    if(GetKeyState("CapsLock", "P")) {
+        SendInput, e
+        return
+    }
+    return
+
 WheelDown::
 	Send, {Space}
 	sleep 100
