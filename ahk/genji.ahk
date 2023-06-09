@@ -19,7 +19,7 @@ LButton::
         SendInput, v
         return
     }
-    SendInput, {LButton down}
+    SendInput, {LButton}
     return
 
 WheelDown::
