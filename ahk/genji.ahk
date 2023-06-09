@@ -29,7 +29,7 @@ WheelDown::
 	sleep 200
     return
 
-F3::
+turn100:
 	Send, {Space}
 	sleep 100
 	loop 1
