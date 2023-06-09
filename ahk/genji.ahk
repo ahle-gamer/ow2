@@ -14,26 +14,8 @@ castPointOrb := 300
 !p::Suspend
 
 
-+q::
-    SendInput, {q down}
-    SendInput, e
-    SendInput, {q up}
-    return
-
-+d::
-    SendInput, {d down}
-    SendInput, e
-    SendInput, {d up}
-    return
-
-+z::
-    SendInput, e
-    return
-
-+s::
-    SendInput, {s down}
-    SendInput, e
-    SendInput, {s up}
+!LButton::
+    SendInput, v
     return
 
 WheelDown::
