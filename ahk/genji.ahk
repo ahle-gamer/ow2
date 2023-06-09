@@ -14,7 +14,7 @@ castPointOrb := 300
 !p::Suspend
 
 
-LButton::
+kaka:
     if(GetKeyState("CapsLock", "P")) {
         SendInput, v
         return
