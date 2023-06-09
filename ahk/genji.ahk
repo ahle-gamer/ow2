@@ -15,17 +15,15 @@ castPointOrb := 300
 
 
 XButton1::
-    if(GetKeyState("CapsLock", "P")) {
+    if(GetKeyState("WheelDown", "P")) {
         SendInput, r
         return
     }
-    return
-
-~RButton::
-    if(GetKeyState("CapsLock", "P")) {
+    if(GetKeyState("RButton", "P")) {
         SendInput, e
         return
     }
+    SendInput, {XButton1}
     return
 
 WheelDown::
