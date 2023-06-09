@@ -14,8 +14,12 @@ castPointOrb := 300
 !p::Suspend
 
 
-!LButton::
-    SendInput, v
+LButton::
+    if(GetKeyState("CapsLock", "P")) {
+        SendInput, v
+        return
+    }
+    SendInput, {Click}
     return
 
 WheelDown::
