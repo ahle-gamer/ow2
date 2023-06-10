@@ -14,16 +14,12 @@ castPointOrb := 300
 !p::Suspend
 
 
-XButton1::
-    if(GetKeyState("WheelDown", "P")) {
-        SendInput, r
+Shift::    
+    if(GetKeyState("LButton", "P")) {
+        SendInput, v
         return
     }
-    if(GetKeyState("RButton", "P")) {
-        SendInput, e
-        return
-    }
-    SendInput, {XButton1}
+    SendInput, {LShift}
     return
 
 WheelDown::
