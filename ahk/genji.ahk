@@ -33,6 +33,13 @@ WheelDown::
 	sleep 200
     return
 
+WheelDown::
+	if(GetKeyState("MButton", "P")) {
+        SendInput, r
+        return
+    }
+    return
+
 turn100:
 	Send, {Space}
 	sleep 100
