@@ -14,7 +14,7 @@ castPointOrb := 300
 !p::Suspend
 
 
-Shift::    
+Shift::
     if(GetKeyState("LButton", "P")) {
         SendInput, v
         return
