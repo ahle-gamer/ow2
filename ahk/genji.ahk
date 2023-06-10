@@ -23,7 +23,7 @@ Shift::
     return
 
 WheelDown::
-	Send, {Space}
+	; Send, {Space}
 	sleep 100
 	loop 8
 	{
