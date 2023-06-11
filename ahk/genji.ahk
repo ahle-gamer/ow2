@@ -14,7 +14,7 @@ castPointOrb := 300
 !p::Suspend
 
 
-Shift::
+Qmelee:
     if(GetKeyState("LButton", "P")) {
         SendInput, v
         return
@@ -33,7 +33,7 @@ WheelDown::
 	sleep 200
     return
 
-WheelDown::
+WheelDown2:
 	if(GetKeyState("MButton", "P")) {
         SendInput, r
         return
