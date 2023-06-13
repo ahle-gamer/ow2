@@ -23,12 +23,12 @@ Qmelee:
     return
 
 WheelDown::
+Turn180:
 	loop 8
 	{
 		DllCall("mouse_event", "UInt", 0x01, "UInt", -338, "UInt", 0)
 		sleep 1
 	}
-	sleep 200
     return
 
 WheelDown2:
