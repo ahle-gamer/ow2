@@ -33,7 +33,7 @@ Turn180:
 
 WheelUp::
 	SendInput, {ShiftDown}
-	Sleep, 320
+	Sleep, 500
 	Gosub, Turn180
 	Sleep, 500
 	SendInput, {Click}	
