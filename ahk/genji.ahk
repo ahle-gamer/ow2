@@ -35,7 +35,7 @@ WheelUp::
 	SendInput, {ShiftDown}
 	Sleep, 320
 	Gosub, Turn180
-	Sleep, 200
+	Sleep, 500
 	SendInput, {Click}	
     return
 
