@@ -34,6 +34,7 @@ Turn180:
 WheelUp:
 	SendInput, {LShift}
 	Sleep, 320
+	Gosub, Turn180
 
 
 	if(GetKeyState("MButton", "P")) {
