@@ -33,7 +33,7 @@ Turn180:
 
 WheelUp:
 	SendInput, {LShift}
-
+	Sleep, 320
 
 
 	if(GetKeyState("MButton", "P")) {
