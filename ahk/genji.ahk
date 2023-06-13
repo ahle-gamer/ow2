@@ -35,8 +35,8 @@ WheelUp:
 	SendInput, {LShift}
 	Sleep, 320
 	Gosub, Turn180
-	Sleep, 100
-	SendInput, {Click}
+	Sleep, 140
+	SendInput, {Click}	
     return
 
 turn100:
