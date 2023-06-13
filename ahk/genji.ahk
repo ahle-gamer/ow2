@@ -32,7 +32,7 @@ Turn180:
     return
 
 WheelUp::
-	Send {LShift}
+	Send {Shift}
 	Sleep, 320
 	Gosub, Turn180
 	Sleep, 200
