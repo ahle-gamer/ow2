@@ -31,7 +31,7 @@ Turn180:
 	}
     return
 
-WheelDown2:
+WheelUp:
 	if(GetKeyState("MButton", "P")) {
         SendInput, r
         return
