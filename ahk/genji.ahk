@@ -36,11 +36,7 @@ WheelUp:
 	Sleep, 320
 	Gosub, Turn180
 
-
-	if(GetKeyState("MButton", "P")) {
-        SendInput, r
-        return
-    }
+	SendInput, v
     return
 
 turn100:
