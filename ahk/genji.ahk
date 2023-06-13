@@ -23,8 +23,6 @@ Qmelee:
     return
 
 WheelDown::
-	; Send, {Space}
-	sleep 100
 	loop 8
 	{
 		DllCall("mouse_event", "UInt", 0x01, "UInt", -338, "UInt", 0)
