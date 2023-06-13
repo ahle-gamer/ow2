@@ -31,7 +31,7 @@ Turn180:
 	}
     return
 
-WheelUp:
+WheelUp::
 	SendInput, {LShift}
 	Sleep, 320
 	Gosub, Turn180
