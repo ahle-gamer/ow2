@@ -32,6 +32,10 @@ Turn180:
     return
 
 WheelUp:
+	SendInput, {LShift}
+
+
+
 	if(GetKeyState("MButton", "P")) {
         SendInput, r
         return
