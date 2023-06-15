@@ -33,6 +33,9 @@ RControl::
 	SendInput, {Space}
 	Return
 
+SC15D::
+	SendInput, {LControl}
+	Return
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
