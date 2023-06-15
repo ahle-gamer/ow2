@@ -17,6 +17,18 @@ p::
 	SendInput, z
 	Return
 
+l::
+	SendInput, q
+	Return
+
+ù::
+	SendInput, d
+	Return
+
+m::
+	SendInput, s
+	Return
+
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
