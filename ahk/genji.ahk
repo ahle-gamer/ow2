@@ -37,6 +37,10 @@ SC15D::
 	SendInput, {LControl}
 	Return
 
+SC15D::
+	SendInput, {LControl}
+	Return
+
 Qmelee:
     if(GetKeyState("LButton", "P")) {
         SendInput, v
