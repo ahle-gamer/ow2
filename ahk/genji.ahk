@@ -29,6 +29,8 @@ Left::v
 
 ,::LShift
 
+o::a
+
 Qmelee:
     if(GetKeyState("LButton", "P")) {
         SendInput, v
