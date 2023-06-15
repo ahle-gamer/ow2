@@ -21,7 +21,7 @@ l::
 	SendInput, q
 	Return
 
-SC192::
+SC028::
 	SendInput, d
 	Return
 
