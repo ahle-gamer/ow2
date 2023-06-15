@@ -27,6 +27,8 @@ SC15D::LControl
 
 Left::v
 
+,::LShift
+
 Qmelee:
     if(GetKeyState("LButton", "P")) {
         SendInput, v
