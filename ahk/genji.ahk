@@ -13,33 +13,19 @@ castPointOrb := 300
 ;Alt P suspend script for chat
 !p::Suspend
 
-p::
-	SendInput, z
-	Return
+p::z
 
-l::
-	SendInput, q
-	Return
+l::q
 
-SC028::
-	SendInput, d
-	Return
+SC028::d
 
-m::
-	SendInput, s
-	Return
+m::s
 
-RControl::
-	SendInput, {Space}
-	Return
+RControl::Space
 
-SC15D::
-	SendInput, {LControl}
-	Return
+SC15D::LControl
 
-Left::
-	SendInput, v
-	Return
+Left::v
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
