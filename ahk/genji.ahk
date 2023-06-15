@@ -37,8 +37,8 @@ SC15D::
 	SendInput, {LControl}
 	Return
 
-SC15D::
-	SendInput, {LControl}
+Left::
+	SendInput, v
 	Return
 
 Qmelee:
