@@ -29,6 +29,10 @@ m::
 	SendInput, s
 	Return
 
+RControl::
+	SendInput, {Space}
+	Return
+
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
