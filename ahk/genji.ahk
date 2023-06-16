@@ -36,11 +36,14 @@ Enter::
 	Loop, 5 {
 		
 		SendInput, {q down}
-		Sleep, 1000
+		Sleep, 500
 		SendInput, {q up}
 		SendInput, {d down}
 		Sleep, 1000
 		SendInput, {d up}
+		SendInput, {q down}
+		Sleep, 500
+		SendInput, {q up}
 	}
 	return
 
@@ -64,7 +67,7 @@ Turn180:
     return
 
 WheelUp:
-	SendInput, {ShiftDown}
+	SendInput, e
 	Sleep, 500
 	Gosub, Turn180
 	Sleep, 500
