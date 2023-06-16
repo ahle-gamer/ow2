@@ -68,7 +68,7 @@ Turn180:
 
 WheelUp::
 	SendInput, e
-	Sleep, 300
+	Sleep, 350
 	Gosub, Turn180
 	Sleep, 500
 	SendInput, {RButton}
