@@ -23,7 +23,7 @@ m::s
 
 RControl::Space
 
-SC15D::LControl
+SC15D::Down
 
 Left::v
 
@@ -32,7 +32,7 @@ Left::v
 SC01A::a
 
 ; strafing
-01C::
+::
 	Loop, 5 {
 		
 		SendInput, {q down}
