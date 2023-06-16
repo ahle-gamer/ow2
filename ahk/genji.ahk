@@ -11,7 +11,7 @@ castPointOrb := 300
 ^0::ExitApp ; control + 0 exit immediately
 
 ;Alt P suspend script for chat
-!::Suspend
+!t::Suspend
 
 p::z
 
