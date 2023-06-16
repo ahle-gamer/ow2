@@ -27,7 +27,7 @@ SC15D::LControl
 
 Left::v
 
-,::LShift
+,::e
 
 SC01A::a
 
