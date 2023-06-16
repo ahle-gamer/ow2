@@ -66,12 +66,14 @@ Turn180:
 	}
     return
 
-WheelUp:
+WheelUp::
 	SendInput, e
-	Sleep, 500
+	Sleep, 300
 	Gosub, Turn180
 	Sleep, 500
-	SendInput, {Click}	
+	SendInput, {RButton}
+	Sleep, 50
+	SendInput, v
     return
 
 turn100:
