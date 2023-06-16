@@ -31,6 +31,16 @@ Left::v
 
 SC01A::a
 
+; strafing
+Enter::
+	Loop, 5 {
+		
+		SendInput, q
+		Sleep, 1000
+		SendInput, d
+		Sleep, 1000
+	}
+	return
 
 /* 
 Qmelee:
