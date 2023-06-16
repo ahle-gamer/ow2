@@ -35,10 +35,12 @@ SC01A::a
 Enter::
 	Loop, 5 {
 		
-		SendInput, q
+		SendInput, {q down}
 		Sleep, 1000
-		SendInput, d
+		SendInput, {q up}
+		SendInput, {d down}
 		Sleep, 1000
+		SendInput, {d up}
 	}
 	return
 
