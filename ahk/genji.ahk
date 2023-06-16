@@ -48,7 +48,7 @@ Turn180:
 	}
     return
 
-WheelUp:
+WheelUp
 	SendInput, {ShiftDown}
 	Sleep, 500
 	Gosub, Turn180
