@@ -32,14 +32,14 @@ Left::v
 SC01A::a
 
 
-
+/* 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
         SendInput, v
         return
     }
     SendInput, {LShift}
-    return
+    return */
 
 WheelDown::
 Turn180:
