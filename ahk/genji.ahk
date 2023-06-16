@@ -63,13 +63,13 @@ Turn180:
 	}
     return
 
-; WheelUp:
-; 	SendInput, {ShiftDown}
-; 	Sleep, 500
-; 	Gosub, Turn180
-; 	Sleep, 500
-; 	SendInput, {Click}	
-;     return
+WheelUp:
+	SendInput, {ShiftDown}
+	Sleep, 500
+	Gosub, Turn180
+	Sleep, 500
+	SendInput, {Click}	
+    return
 
 turn100:
 	Send, {Space}
