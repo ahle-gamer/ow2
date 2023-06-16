@@ -11,7 +11,7 @@ castPointOrb := 300
 ^0::ExitApp ; control + 0 exit immediately
 
 ;Alt P suspend script for chat
-!t::Suspend
+SC045::Suspend
 
 p::z
 
@@ -30,6 +30,8 @@ Left::v
 ,::e
 
 SC01A::a
+
+
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
