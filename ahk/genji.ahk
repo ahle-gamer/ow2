@@ -29,7 +29,7 @@ Left::v
 
 ,::LShift
 
-o::a
+`^::a
 
 Qmelee:
     if(GetKeyState("LButton", "P")) {
