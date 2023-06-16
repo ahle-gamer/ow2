@@ -32,7 +32,7 @@ Left::v
 SC01A::a
 
 ; strafing
-::
+Enter::
 	Loop, 5 {
 		
 		SendInput, {q down}
