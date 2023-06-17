@@ -68,10 +68,10 @@ Turn180:
 
 WheelUp::
 Finish:
-	SendInput, e
-	Sleep, 350
-	Gosub, Turn180
-	Sleep, 500
+	; SendInput, e
+	; Sleep, 350
+	; Gosub, Turn180
+	; Sleep, 500
 	SendInput, {RButton}
 	Sleep, 50
 	SendInput, v
