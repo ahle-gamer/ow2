@@ -67,6 +67,7 @@ Turn180:
     return
 
 WheelUp::
+Finish:
 	SendInput, e
 	Sleep, 350
 	Gosub, Turn180
