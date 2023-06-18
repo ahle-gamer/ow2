@@ -73,7 +73,7 @@ Finish:
 	; Gosub, Turn180
 	; Sleep, 500
 	SendInput, {RButton}
-	Sleep, 50
+	Sleep, 50  
 	SendInput, v
     return
 
