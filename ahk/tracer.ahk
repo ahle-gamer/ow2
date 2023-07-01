@@ -36,7 +36,17 @@ castPointOrb := 300
     SendInput, {s up}
     return
 
-Shift::
+WheelDown::
+Turn180:
+    loop 8
+    {
+        DllCall("mouse_event", "UInt", 0x01, "UInt", -338, "UInt", 0)
+        sleep 1
+    }
+    return
+
+
+Shift:
     if(GetKeyState("s", "P")){
         SendInput, e
         return
