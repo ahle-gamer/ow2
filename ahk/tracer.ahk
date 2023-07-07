@@ -43,21 +43,21 @@ Turn180:
     return
 
 
-Shift:
-    if(GetKeyState("s", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("z", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("q", "P")){
-        SendInput, e
-        return
-    }
-    if(GetKeyState("d", "P")){
-        SendInput, e
-        return
-    }
-    return
+; Shift:
+;     if(GetKeyState("s", "P")){
+;         SendInput, e
+;         return
+;     }
+;     if(GetKeyState("z", "P")){
+;         SendInput, e
+;         return
+;     }
+;     if(GetKeyState("q", "P")){
+;         SendInput, e
+;         return
+;     }
+;     if(GetKeyState("d", "P")){
+;         SendInput, e
+;         return
+;     }
+;     return
